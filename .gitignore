@@ -1,3 +1,4 @@
 *.pyc
 blog/output
 .idea
+.pid
