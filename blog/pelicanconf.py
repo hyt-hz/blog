@@ -25,8 +25,8 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/hyt-hz/'),
+          ('weibo', 'http://weibo.com/u/2008984445'),)
 
 DEFAULT_PAGINATION = 5
 
