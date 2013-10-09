@@ -6,6 +6,8 @@ AUTHOR = u'Huang Yiting'
 SITENAME = u"HYT's blog"
 SITEURL = 'http://hyt-hz.github.io/blog'
 
+GITHUB_URL = 'https://github.com/hyt-hz/blog'
+
 TIMEZONE = 'Asia/BeiJing'
 
 DEFAULT_LANG = u'zh'
@@ -25,7 +27,9 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/hyt-hz/'),
-          ('weibo', 'http://weibo.com/u/2008984445'),)
+          ('linkedin', 'http://cn.linkedin.com/pub/yiting-huang/26/97b/bb7'),
+          ('weibo', 'http://weibo.com/u/2008984445'),
+          ('google-plus', 'https://plus.google.com/117508306953808941543'),)
 
 DEFAULT_PAGINATION = 5
 
