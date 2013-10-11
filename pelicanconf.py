@@ -11,6 +11,7 @@ GITHUB_URL = 'https://github.com/hyt-hz/blog'
 DISQUS_SITENAME = u'hytblog'
 
 GOOGLE_ANALYTICS = u'UA-44782525-1'
+DOMAIN_NAME = u'yitinghuang.com'
 
 TIMEZONE = 'Asia/BeiJing'
 
