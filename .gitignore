@@ -1,6 +1,8 @@
 *.pyc
 output/*
 !output/CNAME
+!output/baidu_verify_otjZ5UI6Jp.html
+!output/baidu_verify_LI1Hp4lsEE.html
 .idea
 .pid
 debug_output
