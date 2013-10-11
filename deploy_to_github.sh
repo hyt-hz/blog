@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ghp-import output && git push origin gh-pages
+make html && ghp-import output && git push origin gh-pages

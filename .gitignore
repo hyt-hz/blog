@@ -3,3 +3,4 @@ output/*
 !output/CNAME
 .idea
 .pid
+debug_output

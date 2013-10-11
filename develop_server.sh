@@ -8,8 +8,8 @@ PELICANOPTS=
 
 BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
-OUTPUTDIR=$BASEDIR/output
-CONFFILE=$BASEDIR/pelicanconf.py
+OUTPUTDIR=$BASEDIR/debug_output
+CONFFILE=$BASEDIR/debugconf.py
 
 ###
 # Don't change stuff below here unless you are sure
