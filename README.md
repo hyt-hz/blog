@@ -33,15 +33,15 @@ pip install pelican
 pip install ghp-import
 ```
 
-### Write blog
+### Write Blog
 
-6. write blog in reStructuredText format and start development server, open 127.0.0.1:8000 in browser
+6. start development server, write blog in reStructuredText format, and open 127.0.0.1:8000 in browser to debug
 
 ```Bash
 ./develop_server.sh start
 ```
 
-7. when ready generate pages and push to github
+7. when ready, generate pages and push to github
 
 ```Bash
 ./deploy_to_github.sh
