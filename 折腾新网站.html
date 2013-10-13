@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>关于新网站</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph tags -->
+
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="关于新网站"/>
+            <meta property="og:url" content="http://blog.yitinghuang.com/折腾新网站.html"/>
+            <meta property="og:description" content="折腾新网站，域名，DISQUS，webmaster，analytics"/>
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://blog.yitinghuang.com/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="http://blog.yitinghuang.com/theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://blog.yitinghuang.com/theme/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="http://blog.yitinghuang.com/theme/css/pygments.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://blog.yitinghuang.com/theme/css/style.css" type="text/css"/>
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-44782525-1', 'yitinghuang.com');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://blog.yitinghuang.com" class="navbar-brand">HYT's blog</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="http://blog.yitinghuang.com/category/life.html">life</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://blog.yitinghuang.com/archives.html"><i class="icon-th-list"></i>Archives</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+<!-- /.navbar -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://blog.yitinghuang.com/折腾新网站.html"
+                       rel="bookmark"
+                       title="Permalink to 关于新网站">
+                        关于新网站
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="icon-calendar"></i>Sun 13 October 2013
+    </span>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="http://blog.yitinghuang.com/tag/life.html">life</a>
+        /
+	<a href="http://blog.yitinghuang.com/tag/web.html">web</a>
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>这几天花了不少时间在这个新网站上，互联网时代，网上廉价和免费的资源不少，但和开源软件一样，都不免会有些折腾，还好，折腾新鲜物件也是一种乐趣。</p>
+<div class="section" id="id2">
+<h2>域名</h2>
+<p>首先是域名，域名一直都是白菜价，个人网站，自然应该有一个属于自己的闪闪亮的域名，本着开放，自信，大气，高端的原则，我决定直接用自己的名字，但只恨下手晚了，已经被注册了，所以就有了现在这个名前姓后的全拼域名，<a class="reference external" href="http://yitinghuang.com">yitinghuang.com</a>，就当是与国际接轨了。说到买域名，自然是大名鼎鼎的godaddy了，虽然国内也有万网之类的服务商，不过看过知乎上的这个<a class="reference external" href="http://www.zhihu.com/question/19673386">提问</a>，相信大家都会断了用国内服务的念想。其实懂点英文，godaddy上点点并不难，而且人还贴心的提供了支付宝付款；不过因为是国外的，网页打开还是慢了点。</p>
+<p>Github pages支持自定义域名，而且很方便，首先在domain host也就是godaddy上添加一条A record，将<a class="reference external" href="http://blog.yitinghuang.com">blog.yitinghuang.com</a>，也就是我博客的domain，指向github的服务器的IP：204.232.175.78，接着在相应的github project（即<a class="reference external" href="https://github.com/hyt-hz/blog">github.com/hyt-hz/blog</a>）的gh-pages branch中添加一个CNAME文件，填写前面设置的域名，即blog.yitinghuang.com，这样github就知道<cite>blog.yitinghuang.com</cite>是当前的<a class="reference external" href="http://hyt-hz.github.io/blog">github project page</a>的一个别名。虽然在设置A record的时候godaddy夸张的表示域名配置生效最长需要48小时，但我马上就能访问新域名了。</p>
+<p>但我高兴的太早了，真正的折腾还在后面。<a class="reference external" href="http://blog.yitinghuang.com">blog.yitinghuang.com</a>是成功启用了，但www.yitinghuang.com和yitinghuang.com仍然是无法解析的，这显然是不能接受的。也许以后我会需要那这两个域名做点别的什么，不过现在我希望它们能指向我的博客，这儿就有两个options，一是设置CNAME，将它们都变成<a class="reference external" href="http://blog.yitinghuang.com">blog.yitinghuang.com</a>的别名，二是用301/302重定向。github不支持第一个选项，所以只能用重定向。godaddy支持域名重定向，但是配置的入口并不那么显而易见，在配置了重定向forwarding后，发现还需要手动添加A record将需要重定向的域名指向godaddy指定的IP（应该就是godaddy用来做重定向服务的服务器IP），一切就绪后，我就开始了漫长的等待，但是奇迹没有发生，重定向没有发生。不甘心的我又尝试了其他配置，但一直不成功，直到我尝试ping了一下godaddy提供的IP，惨不忍睹阿，一个都ping不通，这是被墙了阿。<strong>我又被GFW给耍了</strong>。</p>
+<p>godaddy算是被废了，只能换domain host了。DNSPod在国内算是最火的了，于是决定尝试一下，但是又马上就放弃了，因为启用重定向功能需要验证我的手机号，no way，就算你国内速度再快，我也没兴趣。又是一阵搜索，发现<a class="reference external" href="http://namecheap.com">namecheap</a>是个不错的选择，不需要transfer也可以免费host其他地方购买的域名，支持重定向，也没被墙，设置还简单。于是在godaddy上把Nameservers全部指向namecheap的服务器，同时在namecheap上简单一设，重定向就这么成了。接下来就要祈祷GFW不要把namecheap给墙了。</p>
+</div>
+<div class="section" id="disqus">
+<h2>DISQUS</h2>
+<p><a class="reference external" href="http://disqus.com/">DISQUS</a>是国外一个很火的评论服务，在任何网页中插入DISQUS的JS代码，就能添加一个漂亮的评论框。DISQUS后台是基于Django开发的，所有评论也都是由DISQUS负责存放，对于向我这样希望添加评论功能，但又没有后台数据库的静态页面站点来说，无疑是个福音，更何况pelican以及我使用的theme都充分考虑了DISQUS的集成，添加起来并不费尽，只需去DISQUS网站注册一下我的博客网站，并设置在pelican中配置一下DISQUS_SITENAME这个变量，我的博客就有评论功能了。</p>
+<p>虽然DISQUS在国外如日中天，我逛过的不少老外博客，以及一些商业网站都有使用，但是在国内却基本见不到踪影，和其他国外流行的web service一样，网速，本地化，还有政策风险阻碍了它在国内的发展，同时也一如既往，DISQUS在国内有好几个山寨版，有兴趣大家可以去搜一搜。</p>
+</div>
+<div class="section" id="google-webmaster">
+<h2>Google Webmaster</h2>
+<p>说到google就绕不开GFW，现在GFW对付google的招式非常之下三烂。不像facebook或twitter，GFW并没有直接封杀google，而是抽风的断连接,也不管有没有敏感词，google的页面，连几下就会断，想在google上做点事，那是需要极大的耐心和勇气，说不准搞了一半，就被reset了，然后就是漫长的等待，直到又能连上。这样的结果，就是baidu的崛起。</p>
+<p>吐槽无益，继续正题。<a class="reference external" href="http://www.google.com/webmasters/">Google Webmasters</a>可以帮助站长查看自己网站被google的收录和索引情况，好奇的我自然非常希望了解一下。但是要查看这些信息，你必须证明你是站长，验证方法有多个，比如关联domain host，插条特定DNS record等，我选择了插入google analytics服务。刚建的网站google自然还没有收录，你可以等google的爬虫什么时候爬到你家，也可以在webmaster上手动提交请求，让google来爬一爬，我提交了一下，google已经顺索引了这个博客。</p>
+<p>百度也有个对应的服务，叫百度站长，有机会也去捣腾一下。</p>
+</div>
+<div class="section" id="google-analytics">
+<h2>Google Analytics</h2>
+<p>上面已经提到了<a class="reference external" href="http://www.google.com/analytics/">Google Analytics</a>，这个工具可以提供如网站流量，网站访问来源（如搜索引擎，其他地方的连接等）等的统计信息，以及再次基础上的分析，这个工具对商业网站应该是非常重要的。</p>
+<p>若是希望google帮你统计这些信息，那就需要在网站的每一个页面植入google提供的JS代码，同样，pelican也考虑到了这个，因此集成也不难，需要的是耐心到google页面注册，并获取一个对应自己网站的key，并配置到pelican。Google提供的这些JS据说都是异步获取和载入的，虽然国内访问google时断时续，速度也不好，但是我观察下来，加入这些GA服务后，并没有明显影响博客的加载速度。</p>
+<p>百度自然也不会拉下，对应的有个叫做百度统计的服务。</p>
+</div>
+<div class="section" id="id6">
+<h2>另外</h2>
+<p>对于一个有些网站来说，以上折腾的这些只能算是些皮毛，但是对于非营利的个人博客网站，应该也就够了，什么SEO之类我就不研究了。接下来就是要督促自己勤快一点，多多写博。</p>
+</div>
+
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'hytblog'; // required: replace example with your forum shortname
+            var disqus_identifier = '折腾新网站';
+            var disqus_url = 'http://blog.yitinghuang.com/折腾新网站.html';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-lg-3 well well-sm" id="sidebar">
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><h4><i class="icon-home icon-large"></i>Social</h4></li>
+                    <li class="list-group-item"><a href="https://github.com/hyt-hz/"><i
+                            class="icon-github icon-large"></i>github
+                    </a></li>
+                    <li class="list-group-item"><a href="http://cn.linkedin.com/pub/yiting-huang/26/97b/bb7"><i
+                            class="icon-linkedin icon-large"></i>linkedin
+                    </a></li>
+                    <li class="list-group-item"><a href="http://weibo.com/u/2008984445"><i
+                            class="icon-weibo icon-large"></i>weibo
+                    </a></li>
+                    <li class="list-group-item"><a href="https://plus.google.com/117508306953808941543"><i
+                            class="icon-google-plus icon-large"></i>google-plus
+                    </a></li>
+
+
+
+            <li class="list-group-item"><a href="http://blog.yitinghuang.com/tags.html"><h4><i class="icon-tags icon-large"></i>Tags</h4></a></li>
+                <li class="list-group-item tag-1">
+                    <a href="http://blog.yitinghuang.com/tag/life.html">
+                        life
+                    </a>
+                </li>
+                <li class="list-group-item tag-4">
+                    <a href="http://blog.yitinghuang.com/tag/web.html">
+                        web
+                    </a>
+                </li>
+        </ul>
+    </section>
+</aside>        </div>
+    </div>
+</div>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://blog.yitinghuang.com/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://blog.yitinghuang.com/theme/js/respond.min.js"></script>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'hytblog'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+</body>
+</html>
